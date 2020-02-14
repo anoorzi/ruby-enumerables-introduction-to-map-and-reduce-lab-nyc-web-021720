@@ -35,8 +35,8 @@ end
 
 
 def reduce_to_total(start = 0, array)
-  count = 0
-  total = start
+  count = start
+  total = 0
   while count < array.length do
     total=total+array[count]
     count +=1
