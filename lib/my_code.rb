@@ -20,4 +20,5 @@ def map_to_double(array)
     array[count]=array[count]*2
     count +=1
   end
+  array
 end
