@@ -60,3 +60,19 @@ def reduce_to_all_true(array)
 
 
 end
+
+
+def reduce_to_any_true(array)
+  count = 0
+  while count < array.length do
+    if array[count]
+      return true
+    else
+      count += 1
+
+    end
+
+  end
+  false
+
+end
